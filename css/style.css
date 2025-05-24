@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+html,
+a,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.MainColor {
+    background-color: #f54517 !important;
+}
+.logomain{
+    max-width: 100%;
+    width: 100%;
+}
+.nav-link {
+   margin: 0px 7px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.loader{
+    top: 50%;
+    left: 50%;  z-index: 10
+}
+table thead th {
+    background: #f5e1da;
+}
+
+.table2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.spy{
+        background: #fff;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+
+}
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6;
+    padding: 6px 8px;
+        font-size: 15px;
+}
+
+.table-fixed {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.table-fixed tbody {
+     height: 560px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td {
+  float: left;
+    font-size: 15px;
+}
+.table-fixed thead tr th {
+  float: left;
+    background-color: #ffe4dd;
+    border-color: #ffe4dd;
+}
+
+.form-control {
+  padding: 9px 11px;
+    border-radius: 0px;
+    box-shadow: 1px 0px 3px #d3d3d3;
+}
+.form-select{
+      padding: 9px 11px;
+    border-radius: 0px;
+}
+.form-label {
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.table tbody a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+.btn-sub {
+    background-color: #f54517 !important;
+    padding: 10px 5px;
+    border-radius: 1px;
+}
