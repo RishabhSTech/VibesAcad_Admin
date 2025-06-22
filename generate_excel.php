@@ -127,7 +127,7 @@ if (isset($_POST['generate_excel'])) {
     
     	while($row = $earninglist->fetch_assoc()) {
     		$EarningAmount = str_replace('₹','',$row['EarningAmount']);
-    		fputcsv($output, [$row['id'], $row['user_name'], $row['mobile'], $row['storecontent'], $row['aboutcontent'], $row['somethingabout'], $row['cap_name'], $row['cap_pincode'], $row['cap_whatsapp_num'], $row['totalviews'], $row['totalfollower'], $row['ReelsCount'], $row['loginusername'], $row['insta_username'], $row['AccountCategory'], $row['totallikes2'], $EarningAmount, $row['last_post_date'], $row['avg_view_rate'], $row['engagement_rate'], $row['postperweek'], $row['avgvideoduration'], $row['totalcomment'], $row['paid_collaboration'], $row['interested_barter_collabs'],$row['interested_affiliate_collabs'],$row['audience_gender'],$row['content_youtube'],$row['your_gender'],$row['your_gender'],$row['content_language'], $row['your_age'], $row['created_at']]);
+    		fputcsv($output, [$row['id'], $row['user_name'], $row['mobile'], $row['storecontent'], $row['aboutcontent'], $row['somethingabout'], $row['cap_name'], $row['cap_pincode'], $row['cap_whatsapp_num'], $row['totalviews'], $row['totalfollower'], $row['ReelsCount'], $row['loginusername'], $row['insta_username'], $row['AccountCategory'], $row['totallikes2'], $EarningAmount, $row['last_post_date'], $row['avg_view_rate'], $row['engagement_rate'], $row['postperweek'], $row['avgvideoduration'], $row['totalcomment'], $row['paid_collaboration'], $row['interested_barter_collabs'],$row['interested_affiliate_collabs'],$row['audience_gender'],$row['content_youtube'],$row['your_gender'],$row['content_language'], $row['your_age'], $row['created_at']]);
     	}
 	}else if($trx_type == 'AbandonedCart'){
 	    
